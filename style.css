@@ -65,15 +65,14 @@ button:hover{
   cursor: pointer;
 }
 
-
 /* Navigation ---------------------- */
 nav {
   display: flex;
   justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-right: 400px;
-  padding-left: 400px;
+  padding-right: 600px;
+  padding-left: 600px;
 }
 
 .logo {
@@ -86,14 +85,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 400px;
-  padding-left: 400px;
+  padding-right: 600px;
+  padding-left: 600px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .hero-text {
-  max-width: 30%;
+  max-width: 40%;
 }
 
 .hero-text h1 {
@@ -109,15 +108,14 @@ nav {
 }
 
 .hero-image {
-  max-width: 32%;
-  max-height: 32%;
+  max-width: 42%;
+  max-height: 42%;
 }
 
 .hero button {
   background-color: #3882F6;
   color: #fff;
   border: none;
-  
 }
 
 .hero button:hover {
