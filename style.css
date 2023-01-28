@@ -69,10 +69,11 @@ button:hover{
 /* Navigation ---------------------- */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
-  align-items: center;
+  padding-right: 400px;
+  padding-left: 400px;
 }
 
 .logo {
@@ -84,12 +85,11 @@ nav {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-right: 90px;
-  padding-left: 90px;
+  justify-content: space-between;
+  padding-right: 400px;
+  padding-left: 400px;
   padding-top: 40px;
   padding-bottom: 40px;
-  gap: 50px;
 }
 
 .hero-text {
@@ -109,8 +109,8 @@ nav {
 }
 
 .hero-image {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 32%;
+  max-height: 32%;
 }
 
 .hero button {
@@ -156,8 +156,8 @@ nav {
   background: #e5e7eb;
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 500px;
+  padding-right: 500px;
 }
 
 .quote-text {
